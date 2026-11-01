@@ -1,0 +1,91 @@
+﻿Page,Visual ID,Visual Type,Referenced Fields / Measures
+Executive Dashboard,032e60bae4297735a503,cardVisual,Measure: Services.Total Facilities
+Executive Dashboard,2e504aeb7efc9d60fe54,shape,
+Executive Dashboard,3d6582f0104e4a550387,treemap,Column: Provinces.ProvinceName; Measure: Patients.Total Patient
+Executive Dashboard,48bf8b752a45f561575f,pageNavigator,
+Executive Dashboard,536e4da5e45b1d6712de,cardVisual,Measure: Revenue_Summary.Total Revenue
+Executive Dashboard,566ee682a0f8fbd48a61,clusteredBarChart,Column: Services.ServiceName; Measure: Revenue_Summary.Total Revenue
+Executive Dashboard,59f841b77d71f715f34e,cardVisual,Measure: Appointments.Total Appointments
+Executive Dashboard,9d98c1a571dd683b6ca1,textbox,
+Executive Dashboard,a3b1c5e9f78f9a646c6e,pivotTable,Column: Medical_Equipment.FacilityID; Column: Patients.PatientID; Column: Revenue_Summary.Revenue; Measure: Patient_Feedback.Average Satisfaction
+Executive Dashboard,b10973d099131d6bd5d4,lineChart,Column: Revenue_Summary.Appointments
+Executive Dashboard,b924dcb337178f2def77,actionButton,
+Executive Dashboard,bd35fd8940f034718172,cardVisual,Measure: Patients.Total Patient
+Executive Dashboard,c40ada255f977985c81b,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Executive Dashboard,eb15a2e0f2117a88afed,cardVisual,Measure: Doctor.Total Doctors
+Executive Dashboard,f7f6165594b0be942f7a,shape,
+Patient Analytics,09799a2bcd0154644de7,textbox,
+Patient Analytics,4b2f0760e523a0f6d31e,cardVisual,Measure: Patients.Total Patient
+Patient Analytics,5fedd728b66746d53401,pageNavigator,
+Patient Analytics,620e1991b57a9c5c8a6b,shape,
+Patient Analytics,6838cd4ba5bd430cccc7,donutChart,Column: Patients.Gender; Measure: Patients.Total Patient
+Patient Analytics,7e7245f219132847aed0,treemap,Column: Provinces.ProvinceName; Measure: Patients.Total Patient
+Patient Analytics,8106e5d00cc608823dbf,cardVisual,Measure: Doctor.Total Doctors
+Patient Analytics,98ab1e9a15a364e93e36,pieChart,Column: Patients.InsuranceID; Column: Patients.PatientID
+Patient Analytics,add63bbe5ef672dc9a6c,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Patient Analytics,ca9f781dd004319c43c4,cardVisual,Measure: Services.Total Facilities
+Patient Analytics,dc00b99a266b36b6a280,cardVisual,Measure: Revenue_Summary.Total Revenue
+Patient Analytics,dfa801602ba4a4a57e28,clusteredColumnChart,Column: Patients.ChronicCondition; Column: Patients.PatientID
+Patient Analytics,e1fd0a567eafdf726bff,shape,
+Patient Analytics,fbdd24901798f3a75000,actionButton,
+Patient Analytics,fe09887768ef086a915e,cardVisual,Measure: Appointments.Total Appointments
+Clinical Analytics,13cb8999187c3738c0c9,cardVisual,Measure: Services.Total Facilities
+Clinical Analytics,163b812efd4c74f9f118,shape,
+Clinical Analytics,1ad9f2f58f6c26fdb6eb,cardVisual,Measure: Diagnoses.Total Diagnoses
+Clinical Analytics,33c42f49a5aa14695b22,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Clinical Analytics,39868f7a03b8aa4b2af4,cardVisual,Measure: Laboratory_Tests.Total Lab Tests
+Clinical Analytics,3a68c24482ac7d973611,actionButton,
+Clinical Analytics,47c29a82f5ac64a08732,shape,
+Clinical Analytics,60908fc593e10fb1b0ea,clusteredBarChart,Column: Laboratory_Tests.Test; Column: Patients.PatientID
+Clinical Analytics,7c5c42d44d1eb2ce8c50,textbox,
+Clinical Analytics,7e6e98d9b65cab469a08,clusteredBarChart,Column: Appointments.PatientID; Column: Diagnoses.Diagnosis
+Clinical Analytics,c6dc8bf0a3c823dd70fa,clusteredBarChart,Column: Prescriptions.Medication; Measure: Patients.Total Patient
+Clinical Analytics,cd64f3232eff8c91ec14,clusteredColumnChart,Column: Admissions.AdmissionID; Column: Appointments.PatientID
+Clinical Analytics,dc3710aba622632f997e,pageNavigator,
+Clinical Analytics,e7335618fb3640141e9e,cardVisual,Measure: Admissions.Total Admissions
+Clinical Analytics,e7b1fddaf8b4ef7be3ef,pivotTable,Column: Diagnoses.Diagnosis; Column: Patients.Age
+Clinical Analytics,f453a6dcc608c07e85b4,cardVisual,Measure: Prescriptions.Total Prescriptions
+Financial Dashboard,0b98561dbbe586f299ba,shape,
+Financial Dashboard,231f3b1ef0524084ad2a,pivotTable,Column: Departments.DepartmentName; Column: Departments.FacilityID; Column: Revenue_Summary.Revenue; Column: Services.ServiceName
+Financial Dashboard,247f809fe337bb26a93c,pageNavigator,
+Financial Dashboard,31958d172445f12ac91a,cardVisual,Measure: Insurance_Claims.Claim Approval Rate
+Financial Dashboard,586f2316eea9f7c3a184,hundredPercentStackedColumnChart,Column: Insurance_Claims.ClaimID; Measure: Insurance_Claims.Adjudicated Claims; Measure: Insurance_Claims.Approved Claims
+Financial Dashboard,6b31fc7020e25ed9269b,cardVisual,Measure: Services.Total Facilities
+Financial Dashboard,84b8421b56342e004ad5,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Financial Dashboard,8ed9396d1bef52e60a80,cardVisual,Measure: Billing.Billed Amount
+Financial Dashboard,b2b75c55fd6739975d33,cardVisual,Measure: Payments.Paid Amount
+Financial Dashboard,c4a4c7623938da1d946d,actionButton,
+Financial Dashboard,e67d94d1de5ded0b9b23,shape,
+Financial Dashboard,efd20bd7fa8bfbc2cb6a,lineChart,Measure: Revenue_Summary.Total Revenue
+Financial Dashboard,f2347c4193a1b57e9f26,pieChart,Column: Patients.PatientID; Column: Payments.Method
+Financial Dashboard,f8029d285601ce68ea5e,cardVisual,Measure: Revenue_Summary.Total Revenue
+Financial Dashboard,f899cb068f530cf700b3,textbox,
+Operational Dashboard,13de108e14d7f4c56090,cardVisual,Measure: Beds.Total Beds
+Operational Dashboard,23779ea248416a985fa2,cardVisual,Measure: Services.Total Facilities
+Operational Dashboard,2f32be54d4e141320e83,cardVisual,Measure: Beds.Bed Availability Rate
+Operational Dashboard,31ef3f2848a300a734a4,pivotTable,Column: Beds.RoomID; Measure: Admissions.Total Admissions; Measure: Patients.Total Patient
+Operational Dashboard,3515a76acf86aa552830,hundredPercentStackedBarChart,Column: Administrative_Staff.FacilityID; Column: Doctor.StaffID; Column: Nurse.StaffID; Column: Pharmacist.StaffID; Column: Radiographer.StaffID
+Operational Dashboard,37e25e3930047cb11673,hundredPercentStackedBarChart,Column: Departments.FacilityID; Column: Medical_Equipment.EquipmentName
+Operational Dashboard,538d00096a4935e3c8d5,textbox,
+Operational Dashboard,5cc484fc1c2d39604b05,slicer,Column: Beds.RoomID
+Operational Dashboard,604e7e19e9031e32a53b,pieChart,Column: Medical_Equipment.EquipmentName; Column: Rooms.FacilityID
+Operational Dashboard,80b57e0d42b5f786bcc2,cardVisual,Measure: Beds.Available Beds
+Operational Dashboard,ac18dd53793331b62ceb,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Operational Dashboard,b951ec62fca3cea794c2,shape,
+Operational Dashboard,c99e5999aacac7391146,shape,
+Operational Dashboard,f76d9869c94624100e3e,actionButton,
+Operational Dashboard,f9f36edfc8a83ce37958,cardVisual,Column: Admissions.LengthOfStayDays
+Operational Dashboard,fd8cc00d9a624fe919aa,pageNavigator,
+Operational Dashboard,ff28f6e80f82d47aed74,slicer,Column: Beds.Status
+Patient Experience,0827f5b344357e3837fb,lineChart,Column: Patient_Feedback.Rating
+Patient Experience,19f303c630051105420b,slicer,Column: Beds.RoomID
+Patient Experience,1ff5023f8d410a94078e,pageNavigator,
+Patient Experience,7794db336d244433519d,actionButton,
+Patient Experience,7c34a9b15ebcce9c5c78,shape,
+Patient Experience,7d3e0165eb877f9f9f19,shape,
+Patient Experience,9519456189252ccc7a79,decompositionTreeVisual,Column: Departments.DepartmentName; Column: Departments.FacilityID; Column: Doctor.FirstName; Column: Nurse.FirstName; Measure: Patient_Feedback.Average Satisfaction
+Patient Experience,9f0d6803f96948523098,textbox,
+Patient Experience,b4c101faf157c3c0d963,cardVisual,Measure: Patient_Feedback.Average Satisfaction
+Patient Experience,c41c103fa9500a6af374,tableEx,Column: Patient_Feedback.FeedbackID; Column: Patient_Feedback.Rating; Measure: Patient_Feedback.Average Satisfaction
+Patient Experience,e934eb18e0013d27e209,cardVisual,Column: Patient_Feedback.Rating
+Patient Experience,f8804ebb5f5e8c210f58,slicer,Column: Beds.Status

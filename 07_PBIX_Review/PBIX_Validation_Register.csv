@@ -1,0 +1,12 @@
+﻿Test,Result,Evidence / limitation
+Package integrity,PASS,PBIX ZIP archive readable; report definition and DataModel are present.
+Page definitions,PASS,6 report pages parsed.
+Visual definitions,PASS,90 visual definitions parsed; not a visual-render test.
+Field reference extraction,PASS,94 field/measure references found (including repetitions).
+DataModel / DAX execution,NOT TESTED,Model is embedded in binary DataModel; DAX measures cannot be evaluated here.
+Visual rendering and interactions,NOT TESTED,Requires Power BI Desktop or Power BI Service.
+Refresh and data-source credentials,NOT TESTED,Requires source configuration and Power BI execution.
+Billing / appointment ID reconciliation,DATA ISSUE,"Previously measured: 55,000 of 60,000 billing rows do not match 5,000 appointment IDs in supplied extract."
+Facility-department alignment,DATA ISSUE,"Previously measured: 4,744 of 5,000 appointment rows disagree with department facility."
+Insurance claims coverage,DATA OBSERVATION,"42,036 claims linked to billing; 17,964 billing records have no claim in extract."
+Service/payment duplicate exports,PASS,Services duplicate upload and Payments vs HC_Payments are exact copies.

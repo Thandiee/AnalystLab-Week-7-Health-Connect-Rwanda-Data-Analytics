@@ -1,0 +1,95 @@
+﻿Page,Visual Type,Field Kind,Model Table,Field / Measure
+Executive Dashboard,cardVisual,Measure,Services,Total Facilities
+Executive Dashboard,treemap,Column,Provinces,ProvinceName
+Executive Dashboard,treemap,Measure,Patients,Total Patient
+Executive Dashboard,cardVisual,Measure,Revenue_Summary,Total Revenue
+Executive Dashboard,clusteredBarChart,Column,Services,ServiceName
+Executive Dashboard,clusteredBarChart,Measure,Revenue_Summary,Total Revenue
+Executive Dashboard,cardVisual,Measure,Appointments,Total Appointments
+Executive Dashboard,pivotTable,Column,Medical_Equipment,FacilityID
+Executive Dashboard,pivotTable,Column,Patients,PatientID
+Executive Dashboard,pivotTable,Column,Revenue_Summary,Revenue
+Executive Dashboard,pivotTable,Measure,Patient_Feedback,Average Satisfaction
+Executive Dashboard,lineChart,Column,Revenue_Summary,Appointments
+Executive Dashboard,cardVisual,Measure,Patients,Total Patient
+Executive Dashboard,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Executive Dashboard,cardVisual,Measure,Doctor,Total Doctors
+Patient Analytics,cardVisual,Measure,Patients,Total Patient
+Patient Analytics,donutChart,Column,Patients,Gender
+Patient Analytics,donutChart,Measure,Patients,Total Patient
+Patient Analytics,treemap,Column,Provinces,ProvinceName
+Patient Analytics,treemap,Measure,Patients,Total Patient
+Patient Analytics,cardVisual,Measure,Doctor,Total Doctors
+Patient Analytics,pieChart,Column,Patients,InsuranceID
+Patient Analytics,pieChart,Column,Patients,PatientID
+Patient Analytics,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Patient Analytics,cardVisual,Measure,Services,Total Facilities
+Patient Analytics,cardVisual,Measure,Revenue_Summary,Total Revenue
+Patient Analytics,clusteredColumnChart,Column,Patients,ChronicCondition
+Patient Analytics,clusteredColumnChart,Column,Patients,PatientID
+Patient Analytics,cardVisual,Measure,Appointments,Total Appointments
+Clinical Analytics,cardVisual,Measure,Services,Total Facilities
+Clinical Analytics,cardVisual,Measure,Diagnoses,Total Diagnoses
+Clinical Analytics,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Clinical Analytics,cardVisual,Measure,Laboratory_Tests,Total Lab Tests
+Clinical Analytics,clusteredBarChart,Column,Laboratory_Tests,Test
+Clinical Analytics,clusteredBarChart,Column,Patients,PatientID
+Clinical Analytics,clusteredBarChart,Column,Appointments,PatientID
+Clinical Analytics,clusteredBarChart,Column,Diagnoses,Diagnosis
+Clinical Analytics,clusteredBarChart,Column,Prescriptions,Medication
+Clinical Analytics,clusteredBarChart,Measure,Patients,Total Patient
+Clinical Analytics,clusteredColumnChart,Column,Admissions,AdmissionID
+Clinical Analytics,clusteredColumnChart,Column,Appointments,PatientID
+Clinical Analytics,cardVisual,Measure,Admissions,Total Admissions
+Clinical Analytics,pivotTable,Column,Diagnoses,Diagnosis
+Clinical Analytics,pivotTable,Column,Patients,Age
+Clinical Analytics,cardVisual,Measure,Prescriptions,Total Prescriptions
+Financial Dashboard,pivotTable,Column,Departments,DepartmentName
+Financial Dashboard,pivotTable,Column,Departments,FacilityID
+Financial Dashboard,pivotTable,Column,Revenue_Summary,Revenue
+Financial Dashboard,pivotTable,Column,Services,ServiceName
+Financial Dashboard,cardVisual,Measure,Insurance_Claims,Claim Approval Rate
+Financial Dashboard,hundredPercentStackedColumnChart,Column,Insurance_Claims,ClaimID
+Financial Dashboard,hundredPercentStackedColumnChart,Measure,Insurance_Claims,Adjudicated Claims
+Financial Dashboard,hundredPercentStackedColumnChart,Measure,Insurance_Claims,Approved Claims
+Financial Dashboard,cardVisual,Measure,Services,Total Facilities
+Financial Dashboard,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Financial Dashboard,cardVisual,Measure,Billing,Billed Amount
+Financial Dashboard,cardVisual,Measure,Payments,Paid Amount
+Financial Dashboard,lineChart,Measure,Revenue_Summary,Total Revenue
+Financial Dashboard,pieChart,Column,Patients,PatientID
+Financial Dashboard,pieChart,Column,Payments,Method
+Financial Dashboard,cardVisual,Measure,Revenue_Summary,Total Revenue
+Operational Dashboard,cardVisual,Measure,Beds,Total Beds
+Operational Dashboard,cardVisual,Measure,Services,Total Facilities
+Operational Dashboard,cardVisual,Measure,Beds,Bed Availability Rate
+Operational Dashboard,pivotTable,Column,Beds,RoomID
+Operational Dashboard,pivotTable,Measure,Admissions,Total Admissions
+Operational Dashboard,pivotTable,Measure,Patients,Total Patient
+Operational Dashboard,hundredPercentStackedBarChart,Column,Administrative_Staff,FacilityID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Doctor,StaffID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Nurse,StaffID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Pharmacist,StaffID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Radiographer,StaffID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Departments,FacilityID
+Operational Dashboard,hundredPercentStackedBarChart,Column,Medical_Equipment,EquipmentName
+Operational Dashboard,slicer,Column,Beds,RoomID
+Operational Dashboard,pieChart,Column,Medical_Equipment,EquipmentName
+Operational Dashboard,pieChart,Column,Rooms,FacilityID
+Operational Dashboard,cardVisual,Measure,Beds,Available Beds
+Operational Dashboard,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Operational Dashboard,cardVisual,Column,Admissions,LengthOfStayDays
+Operational Dashboard,slicer,Column,Beds,Status
+Patient Experience,lineChart,Column,Patient_Feedback,Rating
+Patient Experience,slicer,Column,Beds,RoomID
+Patient Experience,decompositionTreeVisual,Column,Departments,DepartmentName
+Patient Experience,decompositionTreeVisual,Column,Departments,FacilityID
+Patient Experience,decompositionTreeVisual,Column,Doctor,FirstName
+Patient Experience,decompositionTreeVisual,Column,Nurse,FirstName
+Patient Experience,decompositionTreeVisual,Measure,Patient_Feedback,Average Satisfaction
+Patient Experience,cardVisual,Measure,Patient_Feedback,Average Satisfaction
+Patient Experience,tableEx,Column,Patient_Feedback,FeedbackID
+Patient Experience,tableEx,Column,Patient_Feedback,Rating
+Patient Experience,tableEx,Measure,Patient_Feedback,Average Satisfaction
+Patient Experience,cardVisual,Column,Patient_Feedback,Rating
+Patient Experience,slicer,Column,Beds,Status
